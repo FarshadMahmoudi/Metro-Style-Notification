@@ -1,0 +1,205 @@
+body
+{
+	font-family: segoe aref;
+	color: black;
+	text-align: center;
+}
+
+.header
+{
+	text-align: center;
+	direction: rtl;
+	font-weight: 100;
+	font-size: 50px;
+	margin: 50px 0px;
+}
+
+.fun-title
+{
+	text-align: center;
+	direction: rtl;
+	font-weight: 100;
+	font-size: 40px;
+	margin-top: 60px;
+	margin-bottom: 1px;
+	padding: 0px 30px;
+	border-bottom: solid 2px #333;
+	display: inline-block;
+}
+
+.man-code
+{
+	font-size: 18px;
+	font-weight: 100;
+	background-color: #333;
+	padding: 20px;
+	display: block;
+	direction: ltr;
+	text-align: left;
+	margin: 0px 20px;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.man-code .line
+{
+	width: calc(100% - 80px);
+	display: block;
+	float: left;
+}
+.man-code .line:hover
+{
+	background-color: #393939;
+}
+
+.man-code .tab1
+{
+	padding-left: 50px;
+	width: calc(100% - 130px);
+}
+
+.man-code .tab2
+{
+	padding-left: 100px;
+	width: calc(100% - 180px);
+}
+
+.man-code .tab3
+{
+	padding-left: 150px;
+	width: calc(100% - 230px);
+}
+
+.man-code .tab4
+{
+	padding-left: 200px;
+	width: calc(100% - 280px);
+}
+
+.man-code .tab5
+{
+	padding-left: 250px;
+	width: calc(100% - 330px);
+}
+
+.man-code .row-num
+{
+	color: #aaa;
+	width: 70px;
+	text-align: right;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	clear: both;
+}
+
+.man-code .sim
+{
+	color: white;
+}
+
+.man-code .fun
+{
+	color: #07dbff;
+}
+
+.man-code .var
+{
+	color: white;
+}
+
+.man-code .str
+{
+	color: yellow;
+}
+
+.man-code .num
+{
+	color: #ff63ff;
+}
+
+.man-code .cmd
+{
+	color: #777;
+	font-style: italic;
+}
+
+.man-code .tag
+{
+	color: red;
+}
+
+.man-code .attr
+{
+	color: #72f572;
+}
+
+.man-table
+{
+	white-space: nowrap;
+	overflow: auto;
+	margin: 0px 20px;
+}
+
+.man-table table
+{
+	width: calc(100% - 0px);
+	background-color: #333;
+	color: white;
+	padding: 50px 20px 20px 20px;
+	font-size: 17px;
+	cursor: default;
+}
+
+.man-table tr:nth-child(2n)
+{
+	background-color: rgba(255, 255, 255, 0.05);
+}
+.man-table tr:nth-child(2n+1)
+{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.man-table tr:first-child
+{
+	background-color: transparent;
+}
+
+.man-table tr th
+{
+	font-weight: 100;
+	border-bottom: solid 1px white;
+	font-size: 20px;
+}
+
+.man-table tr td
+{
+	text-align: left;
+	padding: 2px 5px;
+}
+.man-table tr td:first-child
+{
+	text-align: center;
+}
+.man-table tr td:last-child
+{
+	direction: rtl;
+	text-align: right;
+}
+
+.man-example
+{
+	width: calc(100% - 60px);
+	margin: 20px;
+	padding: 10px;
+}
+
+.example-buttons
+{
+	background-color: #333;
+	padding: 15px 20px;
+	color: white;
+	margin: 10px;
+	cursor: pointer;
+	font-family: segoe aref;
+	font-size: 15px;
+}
