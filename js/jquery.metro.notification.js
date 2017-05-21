@@ -1,4 +1,8 @@
-// khoda azat nagzare age ino bedoune ejazeye man estefade koni
+// Metro Notification Plugin
+// Copy Right 2020 - Pouya Nevisan Company
+// http://www.metronotification.mr-app.ir/
+// https://github.com/FarshadMahmoudi/Metro-Style-Notification/
+// Free for noncommercial use
 (function($) {
 	function SmallNotification_Close(thisnoti, speed, onclick, onhide)
 	{
